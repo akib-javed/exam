@@ -55,3 +55,14 @@ body{
 
 
 }
+.parallax {
+    background-image: url("./img/6.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container > div:hover{
+    opacity: 0;
+  }
